@@ -6,11 +6,11 @@ Vendor Management System with Django Backend
 1. Make sure that python is installed (preferably 3.12).
 2. Create a virtual environment using python.
 3. Activate the virtual env.
-4. Now, install the required dependencies listed in requirements file using the command "pip install -r requirements.txt" (Assuming the current path is same as the path where requirements.txt is located).
-5. Apply the migrations with the command "python manage.py migrate" (if db.sqlite3 is absent).
+4. Now, install the required dependencies listed in requirements file using the command `pip install -r requirements.txt` (Assuming the current path is same as the path where requirements.txt is located).
+5. Apply the migrations with the command `python manage.py migrate` (if db.sqlite3 is absent).
 6. If db.sqlite3 is absent, then run the command "python manage.py createsuperuser".
 7. If db.sqlite3 is present, then `username : nihal`, `password : qwerty`.
-8. Now, run the command "python manage.py runserver" to run the backend server.
+8. Now, run the command `python manage.py runserver` to run the backend server.
 
 Note: Here in this app, I have considered only single type of user and using the same credentials to create token.
 
