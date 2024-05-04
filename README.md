@@ -16,7 +16,7 @@ Note: Here in this app, I have considered only single type of user and using the
 
 ## API Instructions
 
-### 1. /api/login
+### 1. /api/login/
 - **POST**: Fetch a token for the user.
   - Example payload:
     ```json
